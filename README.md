@@ -32,3 +32,18 @@ This project leverages multiple hardware peripherals (GLCD, ADC, DAC, Timers, Jo
 | **Button KEY 1** | Start / Pause / Resume |
 | **Potentiometer** | Adjust Game Speed |
 | **Reset** | Reset Board |
+
+## 🚀 Installation and Debugging
+
+### Requirements
+* **Keil uVision 5** (Legacy Support for ARM7/9 recommended).
+* LandTiger NXP LPC1768 Board.
+
+### Emulator Instructions (Keil)
+Since the Keil simulator does not simulate physical analog inputs by default:
+1.  Set the project target to **"Use Simulator"**.
+2.  A `debug.ini` script is included to map the virtual potentiometer to the ADC registers.
+3.  Open the **Toolbox** window during debugging to use the **"Gira + / Gira -"** virtual buttons to simulate turning the potentiometer knob.
+
+## 👥 Credits
+Project developed for the *Computer Architectures* course.
