@@ -45,4 +45,4 @@ Since the Keil simulator does not simulate physical analog inputs by default:
 2.  Open the **Toolbox** window during debugging to use the **"Gira + / Gira -"** virtual buttons to simulate turning the potentiometer knob.
 
 ## 👥 Credits
-Project developed for the *Computer Architectures* course.
+Project developed for the PoliTo *Computer Architectures* course.
